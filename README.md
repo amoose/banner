@@ -1,5 +1,7 @@
 Ruby/Sinatra BitTorrent Tracker
 ===============================
+[![Build Status](https://travis-ci.org/amoose/bttrack.png)](https://travis-ci.org/amoose/bttrack)
+
 
 Simple [BitTorrent](http://bittorrent.org/) tracker using [Sinatra](http://www.sinatrarb.com/) that doesn't require database backend
 
