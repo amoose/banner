@@ -25,6 +25,10 @@ get '/' do
   erb :index
 end
 
+# get '/public' do
+#   File.read(File.join('public', 'tmp.torrent'))
+# end
+
 get '/announce' do
   info_hash = req.info_hash
   
