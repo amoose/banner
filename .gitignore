@@ -1,5 +1,5 @@
 doc
 *.gem
-tmp/*.torrents
+tmp/*.torrent
 config
 .DS_Store
