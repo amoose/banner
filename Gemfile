@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem 'sinatra'
 gem 'bencode'
-gem 'capistrano', '~> 3.1.0'b
+gem 'capistrano', '~> 3.1.0'
 
 group :test do
   gem "rack-test"
