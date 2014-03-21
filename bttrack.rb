@@ -64,5 +64,5 @@ __END__
 </html>
 
 @@ index
-bttrack version <%= @version %><br/>
-tracking <%= @torrents_count %> torrent(s)
+hondo-a-go-go version <%= @version %><br/>
+tracking <%= @torrents_count %> smurfs
