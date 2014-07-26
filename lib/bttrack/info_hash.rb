@@ -14,7 +14,8 @@ module Bttrack
 
     def validate
       raise 'info_hash is missing' if @params[:info_hash].nil?
-
+      raise 'token is missing' if @params[:token].nil?
+      
       @id = Array(@params[:info_hash].unpack('H*'))[0].to_s
 
       raise 'invalid info_hash' unless

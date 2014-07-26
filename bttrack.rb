@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'pry'
 
 $BTTRACK_ROOT = File.dirname(File.expand_path(__FILE__))
 $LOAD_PATH << "#{$BTTRACK_ROOT}/lib"
@@ -30,8 +31,7 @@ end
 # end
 
 get '/announce' do
-  info_hash = req.info_hash
-  
+  info_hash = req.info_hashoedl 
   peers = info_hash.peers(
     :compact => req.compact?,
     :no_peer_id => req.no_peer_id?,

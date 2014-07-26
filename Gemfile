@@ -12,3 +12,6 @@ group :development do
   gem 'rake'
   gem 'rdoc'
 end
+
+gem 'pry'
+gem 'pry-nav'
