@@ -12,8 +12,10 @@ group :development do
   gem 'rake'
   gem 'rdoc'
   gem 'rspec'
-  gem 'pry'
-  gem 'pry-nav'
 end
 
 gem 'unicorn'
+
+# TODO
+gem 'pry'
+gem 'pry-nav'
