@@ -71,11 +71,3 @@ get '/scrape' do
   end
 end
 
-__END__
-@@ layout
-<html>
-  <body>
-   <%= yield %>
-  </body>
-</html>
-
