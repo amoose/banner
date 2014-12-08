@@ -7,7 +7,7 @@ Based on the Ruby/Sinatra BitTorrent Tracker by [shurikk](https://github.com/shu
 
 Simple [BitTorrent](http://bittorrent.org/) tracker using [Sinatra](http://www.sinatrarb.com/) that doesn't require database backend
 
-Implemented: [BEP 3](http://bittorrent.org/beps/bep_0003.html), [BEP 23](http://bittorrent.org/beps/bep_0023.html)
+Implements [BEP 3](http://bittorrent.org/beps/bep_0003.html) and [BEP 23](http://bittorrent.org/beps/bep_0023.html)
 
 
 Roadmap
@@ -19,17 +19,18 @@ with the Hondo API.
 
 Installation
 ------------
- 
-running on localhost, port 8888, using rack
 
     $ git clone git://github.com/amoose/bttrack.git
     $ cd bttrack; bundle install
     $ bundle exec rackup -p 8888
 
-or create a .torrent file and use http://bttrack.heroku.com/announce as announce URL
 
 
-License
--------
+
+## License
 
 Released under the MIT license.
+
+
+## More information
+For more informatin on the bttrack project, visit the original repo at [shurikk/bttrack](http://github.com/shurikk/bttrack).

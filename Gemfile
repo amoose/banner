@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'bencode'
@@ -11,7 +11,9 @@ end
 group :development do
   gem 'rake'
   gem 'rdoc'
+  gem 'rspec'
+  gem 'pry'
+  gem 'pry-nav'
 end
 
-gem 'pry'
-gem 'pry-nav'
+gem 'unicorn'
