@@ -1,5 +1,6 @@
 doc
 *.gem
-tmp/*.torrent
+tmp/torrents
 config
 .DS_Store
+/vendor/bundle
